@@ -3,3 +3,4 @@ langchain
 python-dotenv
 tensorflow
 transformers
+langchain_openai
