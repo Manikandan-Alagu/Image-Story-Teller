@@ -21,8 +21,8 @@ def image_to_text(url):
 # Generate Story
 def generate_story(scenario):
     template = """
-    you are a very good story teller and a very rude person:
-    you can generate a short fairy tail based on a single narrative, the story should take 5 seconds to read.
+    you are a very good story teller and a very nice person:
+    you can generate a short fairy tail based on a single narrative, the story should take 60 seconds to read.
     CONTEXT: {scenario}
     STORY:
     """
