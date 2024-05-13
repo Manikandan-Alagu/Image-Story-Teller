@@ -3,7 +3,9 @@ import requests
 import gradio as gr
 from transformers import pipeline
 from langchain_openai import ChatOpenAI
-from langchain import PromptTemplate, LLMChain
+import langchain_core.prompts.PromptTemplate
+import langchain.chains.LLMChain
+
 
 OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY", None)
 
