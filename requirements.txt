@@ -1,6 +1,6 @@
 google-generativeai
 langchain
 python-dotenv
-tensorflow
+tf-keras
 transformers
 langchain_openai
