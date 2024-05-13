@@ -4,3 +4,4 @@ python-dotenv
 tf-keras
 transformers
 langchain_openai
+langchain_core
