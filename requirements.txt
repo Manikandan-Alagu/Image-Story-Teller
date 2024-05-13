@@ -1,0 +1,5 @@
+google-generativeai
+langchain
+python-dotenv
+tensorflow
+transformers
