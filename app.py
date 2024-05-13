@@ -2,14 +2,14 @@ import os
 import requests
 import gradio as gr
 from transformers import pipeline
-from langchain_openai import OpenAI
+from langchain_openai import ChatOpenAI
 from langchain_core.prompts import PromptTemplate
 from langchain.chains import LLMChain
 
 
 OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY", None)
 
-llm = OpenAI(openai_api_key=OPENAI_API_KEY,model_name="gpt-3.5-turbo", temperature=0.3)
+llm = ChatOpenAI(openai_api_key=OPENAI_API_KEY,model_name="gpt-3.5-turbo", temperature=0.3)
 
 # Image to Text
 def image_to_text(url):
