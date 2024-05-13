@@ -53,6 +53,6 @@ outputs = [gr.Textbox(label="Scenario"), gr.Textbox(label="Story"), gr.Audio(lab
 
 title = "Image Storyteller"
 description = "Upload an image and generate a story based on the image content."
-examples = [["img.jpg"]]
+examples = ["img.jpg"]
 
 gr.Interface(fn=image_storyteller, inputs=inputs, outputs=outputs, title=title, description=description, examples=examples).launch()
